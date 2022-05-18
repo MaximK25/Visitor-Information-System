@@ -146,6 +146,7 @@ namespace Project_Charlie_1._1
                 LB_Visitoron_site.Items.Add("Meeting Minute: " + TB_MeetingMinutes.Text);
                 LB_Visitoron_site.Items.Add("Meeting Aim: " + Meeting_Aim_Bnt.Text);
                 clearForm();
+                Console.WriteLine("Successfully Done");
             }
            
         }
